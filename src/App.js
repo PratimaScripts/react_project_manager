@@ -32,7 +32,6 @@ class App extends Component {
   }
 
   getProjects(){
-
     this.setState({
       projects: [
         {id: uuid.v4(), title:'Business Website', category: 'Web Design'},
